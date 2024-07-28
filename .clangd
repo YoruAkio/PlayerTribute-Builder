@@ -1,0 +1,18 @@
+CompileFlags:
+  Add:
+    # Disable Warnings and Errors, and Missing include
+    # - -w
+    # - -Wall
+    # - -Wextra
+
+# Diagnostics:
+#   Suppress:
+#     - '*'
+
+InlayHints:
+  Enabled: No
+  BlockEnd: No
+  Designators: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+  TypeNameLimit: 24
